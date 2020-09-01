@@ -10,7 +10,7 @@ defmodule ElixirExample.Application do
       Plug.Cowboy.child_spec(
         scheme: :http,
         plug: ElixirExample.Endpoint,
-        options: [port: 4001]
+        options: [port: 3000]
       )
     ]
 

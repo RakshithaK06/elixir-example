@@ -23,7 +23,6 @@ defmodule ElixirExample.MixProject do
   defp deps do
     [      
       {:plug_cowboy, "~> 2.3"},
-      {:poison, "~> 4.0.1"}
     ]
   end
 end
