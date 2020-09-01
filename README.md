@@ -5,7 +5,7 @@ To run on Kintohub
 - choose `elixir` from the UI and add the following commands
 ```
 # Build command
-mix deps.get
+mix local.hex --force && mix local.rebar --force && mix deps.get --quiet && mix
 
 # run command
 mix run --no-halt
